@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/thicaua02/tec-api#readme",
   "dependencies": {
+    "cors": "^2.8.6",
     "express": "^5.3.0",
     "mysql2": "^3.24.6"
   },
